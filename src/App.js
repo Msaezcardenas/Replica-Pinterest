@@ -38,15 +38,15 @@ class App extends Component {
 
   componentDidMount() {
     axios
-      .get("https://pixabay.com/api/?key=12135320-1034cd4873eda400df781a37d&image_type=photo&q=cat")
-      .then(response =>
-        response.data.results.map(images => ({
-          typeImages: `${images.image_type}`,
-        }))
-      )
+      .get("https://pixabay.com/api/?key=12135320-1034cd4873eda400df781a37d&q=cat&image_type=photo")
+      // .then(response =>
+      //   response.data.results.map(images => ({
+      //     typeImages: `${images.image_type}`,
+      //   }))
+      // )
       .then(images => {
         this.setState({
-          images,
+          images: images.data.hits,
           isLoading: false
         });
       })
@@ -54,21 +54,29 @@ class App extends Component {
   }
 
   render() {
+    console.log(this.state.images)
     const { isLoading, images } = this.state;
     return (
       <React.Fragment>
         <h2>Random User</h2>
         <div>
-          {!isLoading ? (
+          {/* {!isLoading ? (
             images.map(images => {
               const { image_type } = images;
+              <div> <img src={images.largeImageURL} /> </div>
               return (
                   <p>{image_type}</p>
+                 
               );
             })
-          ) : (
+        ) : (
             <p>Loading...</p>
-          )}
+          )} */}
+          {images.map(img => 
+           <img src={img.largeImageURL} />
+
+            )}
+
         </div>
       </React.Fragment>
     )
