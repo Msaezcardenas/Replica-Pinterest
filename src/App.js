@@ -1,30 +1,6 @@
 import React, { Component } from 'react';
-// import logo from './logo.svg';
 import './App.css';
 import axios from 'axios';
-
-
-// class App extends Component {
-//   render() {
-//     return (
-//       <div className="App">
-//         <Header/>
-//           <img src={logo} className="App-logo" alt="logo" />
-//           <p>
-//             Edit <code>src/App.js</code> and save to reload.
-//           </p>
-//           <a
-//             className="App-link"
-//             href="https://reactjs.org"
-//             target="_blank"
-//             rel="noopener noreferrer"
-//           >
-//             Learn React
-//           </a>
-//       </div>
-//     );
-//   }
-// }
 
 
 class App extends Component {
@@ -60,22 +36,10 @@ class App extends Component {
       <React.Fragment>
         <h2>Random User</h2>
         <div>
-          {/* {!isLoading ? (
-            images.map(images => {
-              const { image_type } = images;
-              <div> <img src={images.largeImageURL} /> </div>
-              return (
-                  <p>{image_type}</p>
-                 
-              );
-            })
-        ) : (
-            <p>Loading...</p>
-          )} */}
-          {images.map(img => 
-           <img src={img.largeImageURL} />
 
-            )}
+          <div className = "masonry" >
+           {images.map(img => <div className = "item" > <img src={img.largeImageURL} /> </div>)}  
+            </div>   
 
         </div>
       </React.Fragment>
