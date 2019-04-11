@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import axios from 'axios';
+import NavComponent from './Components/nav';
 
 
 class App extends Component {
@@ -15,11 +16,7 @@ class App extends Component {
   componentDidMount() {
     axios
       .get("https://pixabay.com/api/?key=12135320-1034cd4873eda400df781a37d&q=cat&image_type=photo")
-      // .then(response =>
-      //   response.data.results.map(images => ({
-      //     typeImages: `${images.image_type}`,
-      //   }))
-      // )
+
       .then(images => {
         this.setState({
           images: images.data.hits,
@@ -34,6 +31,7 @@ class App extends Component {
     const { isLoading, images } = this.state;
     return (
       <React.Fragment>
+        <NavComponent/>
         <h2>Random User</h2>
         <div>
 
