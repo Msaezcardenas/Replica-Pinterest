@@ -1,4 +1,51 @@
-.container {
-    display: flex;
-    flex-flow: row wrap;
+.image {
+    width: 30px;
+    height: auto;
+    margin-left: 1.2rem;
+}
+
+.Search {
+    width: 53%;
+    height: 40px;
+    padding-left: 10px;
+    font-weight: bolder;
+    font-size: 100%;
+    border:0;
+    background-color: #efefef;
+    border-radius: 4px;
+}
+
+.navbar {
+    margin-top: 1%;
+}
+
+.inputHome, .following, .fa-bell, .fa-ellipsis-h{
+    margin-left: 1.2rem;
+    color:#8e8e8e;
+}
+
+.fa-comment-dots, .fa-bell, .fa-ellipsis-h {
+    font-size: 145%;
+}
+
+.fa-user-friends {
+    color:#8e8e8e;
+    margin-left: 1rem;
+    font-size: 130%;
+}
+
+.profile{
+    margin-left: 0.5rem;
+    color: #8e8e8e;
+}
+
+.fa-search {
+    margin-left: 1.7rem;
+    height: 28px;
+    font-size: 130%;
+    color: #8e8e8e;
+    border: 0;
+    background-color: #efefef;
+    border-radius: 4px;
+    padding: 9px 0px 5px 15px;
 }
