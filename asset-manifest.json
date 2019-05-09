@@ -1,13 +1,13 @@
 {
-  "main.css": "/Msaezcardenas/Replica-Pinterest.git/static/css/main.62c43146.chunk.css",
-  "main.js": "/Msaezcardenas/Replica-Pinterest.git/static/js/main.e6625815.chunk.js",
-  "main.js.map": "/Msaezcardenas/Replica-Pinterest.git/static/js/main.e6625815.chunk.js.map",
-  "runtime~main.js": "/Msaezcardenas/Replica-Pinterest.git/static/js/runtime~main.0934cda8.js",
-  "runtime~main.js.map": "/Msaezcardenas/Replica-Pinterest.git/static/js/runtime~main.0934cda8.js.map",
-  "static/js/2.88dbd98e.chunk.js": "/Msaezcardenas/Replica-Pinterest.git/static/js/2.88dbd98e.chunk.js",
-  "static/js/2.88dbd98e.chunk.js.map": "/Msaezcardenas/Replica-Pinterest.git/static/js/2.88dbd98e.chunk.js.map",
-  "index.html": "/Msaezcardenas/Replica-Pinterest.git/index.html",
-  "precache-manifest.734cc32ffedf530635dce652b865c56f.js": "/Msaezcardenas/Replica-Pinterest.git/precache-manifest.734cc32ffedf530635dce652b865c56f.js",
-  "service-worker.js": "/Msaezcardenas/Replica-Pinterest.git/service-worker.js",
-  "static/css/main.62c43146.chunk.css.map": "/Msaezcardenas/Replica-Pinterest.git/static/css/main.62c43146.chunk.css.map"
+  "main.css": "/Replica-Pinterest/static/css/main.62c43146.chunk.css",
+  "main.js": "/Replica-Pinterest/static/js/main.049e7bac.chunk.js",
+  "main.js.map": "/Replica-Pinterest/static/js/main.049e7bac.chunk.js.map",
+  "runtime~main.js": "/Replica-Pinterest/static/js/runtime~main.769c0aff.js",
+  "runtime~main.js.map": "/Replica-Pinterest/static/js/runtime~main.769c0aff.js.map",
+  "static/js/2.88dbd98e.chunk.js": "/Replica-Pinterest/static/js/2.88dbd98e.chunk.js",
+  "static/js/2.88dbd98e.chunk.js.map": "/Replica-Pinterest/static/js/2.88dbd98e.chunk.js.map",
+  "index.html": "/Replica-Pinterest/index.html",
+  "precache-manifest.5e93b1b881ba92e158d84f70772f75dd.js": "/Replica-Pinterest/precache-manifest.5e93b1b881ba92e158d84f70772f75dd.js",
+  "service-worker.js": "/Replica-Pinterest/service-worker.js",
+  "static/css/main.62c43146.chunk.css.map": "/Replica-Pinterest/static/css/main.62c43146.chunk.css.map"
 }

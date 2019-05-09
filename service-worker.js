@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/Msaezcardenas/Replica-Pinterest.git/precache-manifest.734cc32ffedf530635dce652b865c56f.js"
+  "/Replica-Pinterest/precache-manifest.5e93b1b881ba92e158d84f70772f75dd.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/Msaezcardenas/Replica-Pinterest.git/index.html", {
+workbox.routing.registerNavigationRoute("/Replica-Pinterest/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
